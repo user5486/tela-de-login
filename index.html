@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+     function verificar(){
+         let user = document.getElementById("user").value;
+         let pass =document. getElementById("pass").value;
+    }
+          if(user = "") || pass == "") {
+        alert("prencha o campo correspondente!");
+          }else{
+            alert ("bem vindo + user");
+
+          }
+          
+          
+    </script>
+</head>
+<body>
+    <form methof="#" action="#">
+        <h1>login</h1>
+        <label  for ="user">usuario</label>
+        <input type="text" id="user">
+        <label for="pass">senha</label>
+        <input type="password" id="pass">
+        <input type="submit" value="enviar"  onclick="verificar()">
+        <input  type="reset" value="limpar">
+    </form>
+</body>
+</html>
